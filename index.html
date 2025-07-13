@@ -1,0 +1,21 @@
+<!-- src/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personajes</title>
+    <link rel="stylesheet" href="/src/styles/style.css" />
+  </head>
+  <body>
+    <h1>Personajes de Mortadelo y Filemón</h1>
+
+    <form id="busqueda-form">
+      <input type="text" id="nombre-input" placeholder="Buscar personaje..." />
+      <button type="submit">Filtrar</button>
+    </form>
+
+    <div id="personajes-container"></div>
+
+    <script type="module" src="/src/listado-personajes.ts"></script>
+  </body>
+</html>
